@@ -70,7 +70,7 @@ function Generator() {
           Generar QR
         </button>
         <div className="flex justify-center pt-10">
-          <div className="h-56 w-56" id="QR" ref={qrRef}></div>
+          <div className="h-52 w-52" id="QR" ref={qrRef}></div>
         </div>
         {IsQRGenerated && <Download qrRef={qrRef} />}
       </form>

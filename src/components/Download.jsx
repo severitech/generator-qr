@@ -23,7 +23,7 @@ function Download({qrRef}) {
   return (
     <button
       onClick={downloadQRCode}
-      className="mt-5 h-10 bg-teal-700 rounded-2xl w-full font-semibold hover:bg-teal-600 transition-all duration-300"
+      className="mt-14 h-10 bg-teal-700 rounded-2xl w-full font-semibold hover:bg-teal-600 transition-all duration-300"
     >
       Descargar imagen
     </button>
