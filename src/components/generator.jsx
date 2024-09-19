@@ -50,10 +50,10 @@ function Generator() {
     };
   
     return (
-      <div className="App">
-        <h1>Generador de QR</h1>
-        <form onSubmit={generateQRCode}>
-          <input 
+      <div className=" text-slate-300" >
+        <h1 className="text-6xl">Generador de QR sin anuncios</h1>
+        <form className = "content-center"onSubmit={generateQRCode}>
+          <input className=" rounded-md " 
             type="text" 
             placeholder="Introducir URL" 
             value={url} 
